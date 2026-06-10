@@ -77,9 +77,9 @@ export default function HomePage() {
                   <Link to="/money/best-professional-red-light-therapy-panels-under-500" className="block p-3 border border-white/20 rounded hover:bg-white/10 transition-colors text-sm">
                     Best Under $500
                   </Link>
-                  <div className="p-3 border border-white/10 rounded opacity-50 cursor-not-allowed text-xs italic">
-                    Coming Soon: Best Under $1000
-                  </div>
+                  <Link to="/money/best-full-body-red-light-therapy-panels-under-1000" className="block p-3 border border-white/20 rounded hover:bg-white/10 transition-colors text-sm">
+                    Best Under $1000
+                  </Link>
                 </div>
               </div>
             </div>

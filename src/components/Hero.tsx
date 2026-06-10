@@ -25,13 +25,14 @@ export default function Hero() {
             </div>
           </div>
           <div className="hidden lg:block relative">
-            <div className="absolute -inset-4 bg-primary/5 rounded-full blur-3xl"></div>
+            <div className="absolute -inset-10 bg-gradient-to-tr from-primary/20 via-blue-500/20 to-purple-500/20 rounded-full blur-[80px] animate-pulse"></div>
             <img 
-              src="https://images.unsplash.com/photo-1614850523296-d8c1af93d400?auto=format&fit=crop&q=80&w=800" 
-              alt="Red Light Therapy Technology" 
-              className="relative z-10 rounded-lg shadow-2xl border border-border-custom object-cover h-[350px] w-full"
+              src="https://images.unsplash.com/photo-1550684848-fac1c5b4e853?auto=format&fit=crop&q=80&w=1000" 
+              alt="Red Light Therapy Colors" 
+              className="relative z-10 rounded-lg shadow-2xl border border-white/20 object-cover h-[500px] w-full mix-blend-lighten"
               referrerPolicy="no-referrer"
             />
+            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full h-full bg-gradient-to-b from-transparent via-transparent to-secondary/30 pointer-events-none rounded-lg"></div>
           </div>
         </div>
       </div>
